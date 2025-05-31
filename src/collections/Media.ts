@@ -39,7 +39,7 @@ export const Media: CollectionConfig = {
     },
   ],
   upload: {
-    staticDir: path.resolve(dirname, 'uploads'),
+    disableLocalStorage: true,
     adminThumbnail: 'thumbnail',
     focalPoint: true,
     imageSizes: [
